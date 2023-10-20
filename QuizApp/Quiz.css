@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: red;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: wheat;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 7px;
+}
+  
+button{
+    background-color: blueviolet;
+    padding: 5px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    color: white;
+    cursor: pointer; 
+}
+
+label{
+    padding: 7px;
+}
+
+.op{
+    width: 100%;
+    padding: 7px;
+}
